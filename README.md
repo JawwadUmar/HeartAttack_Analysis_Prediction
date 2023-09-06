@@ -1,17 +1,17 @@
-# Heart Attack
-Heart attack is a myocardial necrosis caused by acute and persistent ischemia and hypoxia of coronary artery which manifestations are arrhythmia, shock or heart failure, which can be fatal. A heart attack occurs when the flow of blood to the heart is blocked. The blockage is most often a buildup of fat, cholesterol and other substances, which form a plaque in the arteries that feed the heart (coronary arteries). Sometimes, a plaque can rupture and form a clot that blocks blood flow.
+# Heart Attack Overview
+A heart attack, scientifically known as myocardial necrosis, occurs due to acute and sustained ischemia and hypoxia in the coronary artery, leading to manifestations like arrhythmia, shock, or heart failure, which can prove fatal. This life-threatening event transpires when blood flow to the heart is obstructed, typically caused by the accumulation of fat, cholesterol, and other substances, forming arterial plaques in the coronary arteries. In some cases, these plaques can rupture, forming clots that further impede blood circulation.
 
-# Dataset Information:
-The dataset consists of 303 rows and 14 columns with label Output. Data contains categorical as well as numerical data.
+# Dataset Details:
+The dataset comprises 303 rows and 14 columns, including the "Output" label. It encompasses both categorical and numerical data.
 
-# Data Cleansing:
-There is only one row that is duplicated which can easily be dropped.
+# Data Cleaning:
+Only one duplicate row exists in the dataset, which can be easily removed for cleaner data.
 
 # Data Visualization:
-Data Visualization is done by step by step process with critical analysis. With the help of python libaries such as matplotlib and seaborn, I plotted barplots, distribution plots and line plots to show the comparision and correlation between features.
+The data visualization process unfolds step by step, involving critical analysis. Python libraries like matplotlib and seaborn are employed to create informative barplots, distribution plots, and line plots that illustrate feature comparisons and correlations.
 
 # Methodology:
-To explain and identify the problem and resolve medical objectives, diﬀerent data science techniques, which interpret the medical goals, have been implemented to diagnose heart disease. A suitable machine learning algorithm called Logistic Regression is preferred for the training and implementation in python for developing and evolving the predictive model. This algorithm executed on the model will help medical experts to predict and diagnose heart attacks in the patient dataset. Exploratory Data Analysis is performed using python libraries such as Matplotlib and Seaborn to gain insights from the data.
+To address the medical objectives and diagnose heart disease, various data science techniques have been employed. These techniques interpret medical goals and utilize a suitable machine learning algorithm, namely Logistic Regression, for training and implementation in Python to develop a predictive model. This model, when applied to the dataset, aids medical experts in predicting and diagnosing heart attacks. Exploratory Data Analysis is performed using Python libraries such as Matplotlib and Seaborn to extract valuable insights from the data.
 
-# Result:
-The dataset is trained and tested using the algorithm Logistic Regression which gave an accuracy of 81.5%.
+# Results:
+The dataset was trained and tested using the Logistic Regression algorithm, resulting in an accuracy rate of 81.5%.
